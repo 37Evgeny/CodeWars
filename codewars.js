@@ -111,7 +111,33 @@
 //   function betterThanAverage(classPoints, yourPoints) {
 //     return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; 
 //   }
-console.log("Все работаетт")
+
+
+// Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+// For example,
+// [true,  true,  true,  false,
+//   true,  true,  true,  true ,
+//   true,  false, true,  false,
+//   true,  false, false, true ,
+//   true,  true,  true,  true ,
+//   false, false, true,  true]
+// The correct answer would be 17.
+// let arrayOfSheep = [true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true];
+// let sum=0;
+//     function countSheeps(arrayOfSheep) {
+//          sum=arrayOfSheep.filter(e=>e===true)
+//         return sum = sum.length
+//     }
+//     countSheeps(arrayOfSheep)
+// решение лучшее
+// // function countSheeps(arrayOfSheeps) {
+//   return arrayOfSheeps.filter(Boolean).length;
+// }
 
 
 
