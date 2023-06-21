@@ -139,5 +139,85 @@
 //   return arrayOfSheeps.filter(Boolean).length;
 // }
 
+// найти минимальное число в массиве
+// let arr = [34, 15, 88, 2];
+// class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//         return args=Math.min(...args)
+//     }
+//   }
+
+// удалить из строки пробелы
+// let x = "8 j 8   mBliB8g  imjB8B8  jl  B";
+// let str=" ";
+// function noSpace(x){
+//     return str= x.replaceAll(' ', '')
+// }
+// noSpace(x);
+// console.log(str)
+// решение через регулярку
+// function noSpace(x){
+//     return x.replace(/\s/g, '');
+//   }
+
+// сложить все элементы массива с приведением типов к числу
+// let x = [9, 3, '7', '3'];
+// let sum=0;
+// function sumMix(x){
+//     return sum = x.reduce((a, b)=>Number(a)+Number(b), 0)
+// }
+// sumMix(x)
+// console.log(sum)
+// function sumMix(x){
+//     return x.map(a => +a).reduce((a, b) => a + b);
+//   }
+
+
+// если число положительное вернуть отрицательное, если отрицательное то действия не требуются
+// let num=0;
+// let res;
+// function makeNegative(num) {
+//     if(num>0){
+//         return res=-num;
+//     }else if(num ==0){
+//         return res=num;
+//     }else if(num<0){
+//         return res=num
+//     }
+//   }
+//   makeNegative(num)
+//   console.log(res)
+//   решение 
+//   function makeNegative(num) {
+//     return -Math.abs(num);
+//   }
+
+// ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+
+// If the function is passed a valid PIN string, return true, else return false.
+
+// Examples (Input --> Output)
+// "1234"   -->  true
+// "12345"  -->  false
+// "a234"   -->  false
+// let pin = '1111'
+// let pinval =false;
+// function validatePIN (pin) {
+//     pin=pin.replace(/[\D]+/g)
+//     if( Number(pin)>0 && String(pin).length === 4 && Number(pin) % 1 == 0 || Number(pin)>0 && Number(pin) % 1 == 0 && String(pin).length === 6 ){
+//         return pinval= true;
+//     }else if(pin === '0000' || pin === '000000'){
+//        return  pinval = true;
+//       }else{
+//         return  pinval = false;
+//     }
+// }
+//   validatePIN(pin)
+//   console.log(pinval)
+// лучшее решение
+//   function validatePIN(pin) {
+//     return /^(\d{4}|\d{6})$/.test(pin)
+//   }
+
 
 
