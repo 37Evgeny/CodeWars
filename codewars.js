@@ -219,5 +219,53 @@
 //     return /^(\d{4}|\d{6})$/.test(pin)
 //   }
 
+// Implement a function which convert the given boolean value into its string representation.
+
+// Note: Only valid inputs will be given.
+
+// let b =true
+
+// function booleanToString(b){
+     
+//      return b=String(b)
+//   }
+//   booleanToString(b)
+//   console.log(b)
+//   console.log("b")
+
+
+// Convert number to reversed array of digits
+// Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+// Example(Input => Output):
+// 35231 => [1,3,2,5,3]
+// 0 => [0]
+// let n = 35231;
+// let a =[1,2,3,4,5]
+// function digitize(n) {
+//     n = (''+n).split('').map(function(digit){
+//         return +digit;
+//     })
+//     return n.reverse()
+//   }
+//   console.log(a)
+// function digitize(n) {
+//     return String(n).split('').map(Number).reverse()
+//   }
+
+let dna = 'GCAT';
+let newDna="";
+
+function DNAtoRNA(dna) {
+    return dna.replace(/T/g, "U");
+      
+  }
+
+  DNAtoRNA(dna)
+  console.log(dna)
+  console.log(newDna)
+
+
+
 
 
