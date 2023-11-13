@@ -253,19 +253,47 @@
 //     return String(n).split('').map(Number).reverse()
 //   }
 
-let dna = 'GCAT';
-let newDna="";
+// let dna = 'GCAT';
+// let newDna="";
 
-function DNAtoRNA(dna) {
-    return dna.replace(/T/g, "U");
+// function DNAtoRNA(dna) {
+//     return dna.replace(/T/g, "U");
       
-  }
+//   }
 
-  DNAtoRNA(dna)
-  console.log(dna)
-  console.log(newDna)
+//   DNAtoRNA(dna)
+//   console.log(dna)
+//   console.log(newDna)
+
+// преобразовать строку в число
+
+// let str = '1234'
+
+// const stringToNumber = function(str){
+//   str= Number(str)
+//   return str;
+// }
+
+// stringToNumber(str);
+ 
+// console.log(str)
+
+// сумма всех чисел
+
+// let num = 8;
+// let sum= 0;
+// var summation = function (num) {
+
+//   for(let i=0; i<=num; i++){
+//     sum +=i;
+//   }
+  
+//   return sum;
+// }
 
 
+// summation(num)
 
+// console.log(sum)
 
 
